@@ -1,5 +1,6 @@
+Detail system 
 
-Detail system before install Displaylink
+### Before install Displaylink
 
 ```bash
 --------------- Linux system info ----------------
@@ -34,7 +35,8 @@ Contents:
 Providers: number : 1
 Provider 0: id: 0x46 cap: 0xf, Source Output, Sink Output, Source Offload, Sink Offload crtcs: 3 outputs: 5 associated providers: 0 name:modesetting
 ```
-Ru
+
+## Manual Install DisplayLink
 
 ```bash
 mkdir displaylink_manual
@@ -50,17 +52,16 @@ sudo ./displaylink-installer.sh noreboot
 sudo systemctl start displaylink-driver.service
 ```
 
-Note Brigtness GNOME install addons : Soft Brigtness Plus
+Note: Brigtness GNOME addons "Soft Brigtness Plus"
 
 change the brightness via an alpha layer, because feature DDC is not available on displaylink  
 
-Ref
-https://github.com/DisplayLink/evdi/issues/413
+Ref : /n
+https://github.com/DisplayLink/evdi/issues/413 /n
 https://www.reddit.com/r/Fedora/comments/yxkm3w/fedora_37_anybody_know_how_to_get_displaylink_to/
 
 
-
-After Install DisplayLink
+#### After Install DisplayLink
 
 ```bash
 
