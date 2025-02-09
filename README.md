@@ -1,5 +1,3 @@
-Detail system 
-
 ### Before install Displaylink
 
 ```bash
@@ -56,8 +54,10 @@ Note: Brigtness GNOME addons "Soft Brigtness Plus"
 
 change the brightness via an alpha layer, because feature DDC is not available on displaylink  
 
-Ref : /n
-https://github.com/DisplayLink/evdi/issues/413 /n
+Ref :
+
+https://github.com/DisplayLink/evdi/issues/413
+
 https://www.reddit.com/r/Fedora/comments/yxkm3w/fedora_37_anybody_know_how_to_get_displaylink_to/
 
 
