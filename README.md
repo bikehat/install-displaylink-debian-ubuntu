@@ -38,24 +38,33 @@ Provider 0: id: 0x46 cap: 0xf, Source Output, Sink Output, Source Offload, Sink 
 
 ```bash
 ### Download New Version EVDI
+
 mkdir displaylink_manual
 cd displaylink_manual
 git clone https://github.com/DisplayLink/evdi.git
+
+### displaylink_manual/
+###  ├─ evdi.tar.gz
 ```
 please MANUALLY download Displaylink Driver, file before executing: https://www.synaptics.com/products/displaylink-graphics/downloads/ubuntu
 
 ```bash
 ### Download Driver Displaylink
 ### inside : displaylink_manual
+
 ./displaylink-driver-x.x.x-xx.xxx.run --target displaylink --noexec
 cd displaylink
+
+### displaylink_manual/
+###  ├─ evdi.tar.gz
+###  ├─ displaylink
 ```
 
 Replace EVDI new version from DisplayLink && Install DisplayLink
 ```bash
 ### displaylink_manual/
 ###  ├─ evdi.tar.gz
-###  ├─ displaylink
+###  ├─ displaylink             [note: run inside]
 
 tar -czf evdi.tar.gz -C ../evdi .
 sudo ./displaylink-installer.sh uninstall
